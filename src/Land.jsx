@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function Land() {
   return (
     <>
@@ -19,9 +20,7 @@ function Land() {
     </div>
 
     
-        <div className = 'bg-gray300 border-2 h-[20rem] w-[20rem] rounded-2xl'>
-
-        </div>
+        
 
 
     </div>
@@ -31,39 +30,35 @@ function Land() {
             <div className = 'flex space-x-4'>
                 <div className = 'bg-black w-[2rem] h-[2rem] rounded-[10rem]'></div>
                 <div className = 'font-bold text-2xl'>
-                    Feature One
+                    Recognition Feature
                 </div>
             </div>
             
             <div className = 'font-semibold'>
-                <br></br>
-                All base UI elements are made using tested Symbols and shared styles that are logically connected with one another
+                Able to understand greetings and comprehend messages
+                </div>
+        </div>
+        <div className = 'w-[20rem]'>
+            <div className = 'flex space-x-4'>
+                <div className = 'bg-black w-[2rem] h-[2rem] rounded-[10rem]'></div>
+                <div className = 'font-bold text-2xl'>
+                    Transcribe Feature
+                </div>
+            </div>
+            <div className = 'font-semibold'>
+                    Uses the OpenAI Whisper Model to Transcribe and Even Translate Text
+
             </div>
         </div>
         <div className = 'w-[20rem]'>
             <div className = 'flex space-x-4'>
                 <div className = 'bg-black w-[2rem] h-[2rem] rounded-[10rem]'></div>
                 <div className = 'font-bold text-2xl'>
-                    Feature One
+                    Analysis Feature
                 </div>
             </div>
             <div className = 'font-semibold'>
-                <br></br>
-
-                All base UI elements are made using tested Symbols and shared styles that are logically connected with one another
-            </div>
-        </div>
-        <div className = 'w-[20rem]'>
-            <div className = 'flex space-x-4'>
-                <div className = 'bg-black w-[2rem] h-[2rem] rounded-[10rem]'></div>
-                <div className = 'font-bold text-2xl'>
-                    Feature One
-                </div>
-            </div>
-            <div className = 'font-semibold'>
-                <br></br>
-
-                All base UI elements are made using tested Symbols and shared styles that are logically connected with one another
+                    Works to analyse and understand through using GPT 3.5 Turbo
             </div>
         </div>
     </div>

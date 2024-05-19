@@ -177,7 +177,7 @@ const App = () => {
           <div className = 'rounded-xl border-gray-300 border-4 p-5 h-[30rem] w-[25rem] flex flex-col justify-between shadow-2xl'>
             <div>
               <div className = 'font-semibold text-xl'>Gesture Recognition</div>
-              <button onClick={handleRecognition} disabled={loading}>
+              <button className="text-black font-bold px-4 py-2 rounded-full border-2 bg-gray-400 mt-10" onClick={handleRecognition} disabled={loading}>
                 {recognitionActiveRef.current ? 'Listening...' : 'Start Recognition'}
               </button>
               <div>
